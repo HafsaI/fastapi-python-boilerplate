@@ -1,1 +1,28 @@
-fastapi
+fastapi==0.116.1
+uvicorn==0.35.0
+langgraph==0.2.45
+langchain==0.3.7
+langchain-openai==0.2.8
+pydantic==2.11.2
+pydantic-settings==2.10.1
+requests==2.31.0
+
+
+# Database dependencies
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+
+# Additional dependencies
+python-dotenv==1.0.0
+httpx==0.28.0
+
+# # Utilities
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+loguru==0.7.2
+
+websockets==12.0
+greenlet==3.2.4
